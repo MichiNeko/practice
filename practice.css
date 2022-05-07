@@ -282,9 +282,9 @@ hr{
 
 @media(max-width: 800px){
      body{
-          font-size: 0.8rem;
+          font-size: 1.5rem;
           line-height: 1.5;
-          width: 70%;
+          width: 100%;
      }
 
      .forgot{
