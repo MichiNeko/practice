@@ -276,8 +276,6 @@ hr{
 @media(min-width: 600px){
      body{
           font-size:1.25rem;
-          width: 100%;
-
      }
 }
 
@@ -285,7 +283,6 @@ hr{
      body{
           font-size: 1.5rem;
           line-height: 1.5;
-          width: 100%;
      }
 
      .forgot{
