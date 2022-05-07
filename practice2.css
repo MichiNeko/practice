@@ -1,0 +1,293 @@
+body{
+     background-color: rgb(255, 255, 255);
+     color: rgb(47, 55, 69);
+
+     font:normal 21px 'Roboto',sans-serif;
+     line-height: 1.6em;
+     margin:auto;
+     width: 40%;
+     /* text-align: center; */
+     display: flex;
+     flex-flow: column;
+     margin-top:50px;
+     margin-bottom: 50px;
+}
+
+
+.text-center {
+     text-align: center;
+}
+
+.login, .login-button1, .login-button2, .forgot, .create{
+     text-align: center;
+}
+
+/* LOGIN BUTTON 1 */
+.login-button1{
+     background-color: #ffffff;
+     border: solid 2px rgb(7, 105, 240);
+     border-radius: 8px;
+     color: rgb(7, 105, 240);
+     padding: 0px 6px;
+     text-align: center;
+     line-height: 60px;
+     display: inline-block;
+     font-size: 21px;
+     font-weight: 700;
+     cursor: pointer;
+     position: relative;
+
+     margin-top:30px;
+     
+     /* background: yellow; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     transition-duration: 0.2s;
+}
+
+.login-button1:hover{
+     border: solid 2px rgb(215, 222, 240);
+     background-color:rgb(245, 249, 255);
+     color:rgb(55, 130, 240)
+}
+
+ .logo {
+     /* background: green; */
+     height: 40px;
+     width: 40px;
+     /* background-color: aqua; */
+     text-align: center;
+     margin-right: 10px;
+     
+}
+
+
+
+/* HORIZONTAL LINE 1 */
+h2 {
+     width: 100%; 
+     text-align: center; 
+     border-bottom: 1px solid rgb(207, 213, 225); 
+     line-height: 0.1em;
+     margin: 10px 0 20px; 
+
+     margin-top:40px;
+  } 
+  
+  h2 span { 
+     color:rgb(168, 173, 183);
+     background:#fff; 
+     padding:0 10px; 
+     font-size:70%;
+     font-weight: lighter;
+     font-family: 'Alata';
+  }
+
+
+
+/* E MAIL */
+.container1{
+     /* display: flex;
+     flex-flow: column;
+     justify-content: left; */
+     font-weight: bolder;
+     /* background-color: brown; */
+}
+
+
+
+input[type="text"] {
+     width: 96%;
+     padding: 19px 10px;
+     border: 1.6px solid rgb(207, 213, 225);
+     border-radius: 8px;
+     margin: auto;
+}
+
+input[type=text]:focus{
+     outline-color: rgb(67, 154, 233);
+     box-shadow: 0 0 3px rgb(139, 185, 233);
+}
+
+
+
+
+/* PASSWORD */
+.container2{
+     display: flex;
+     flex-flow: column;
+     justify-content: left;
+     font-weight: bolder;
+     /* background-color:aquamarine; */
+}
+
+input[type="password"] {
+     width: 96%;
+     padding: 19px 10px;
+     border: 1.6px solid rgb(207, 213, 225);
+     border-radius: 8px;
+}
+
+input[type="password"]:focus{
+     outline-color: rgb(67, 154, 233);
+     box-shadow: 0 0 3px rgb(139, 185, 233);
+}
+
+
+
+/* CHECKBOX */
+/* Customize the label (the container) */
+.remember-me {
+     display: block;
+     position: relative;
+     padding-left: 38px;
+     margin-top: -15px;
+     cursor: pointer;
+     font-size: 22px;
+     font-weight: bolder;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+   }
+   
+   /* Hide the browser's default radio button */
+   .remember-me input {
+     position: absolute;
+     opacity: 0;
+     cursor: pointer;
+     height: 0;
+     width: 0;
+   }
+   
+   /* Create a custom radio button */
+   .checkmark {
+     position: absolute;
+     top: 5px;
+     left: 0;
+     height: 20px;
+     width: 20px;
+     background-color: rgb(255, 255, 255);
+     border: solid 2px rgb(193, 199, 210);
+     border-radius: 40%;
+   }
+   
+   /* When the radio button is checked, add a blue background */
+   .remember-me input:checked ~ .checkmark {
+     background-color: #ffffff;
+   }
+   
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+     content: "";
+     position: absolute;
+     display: none;
+}
+   
+/* Show the indicator (dot/circle) when checked */
+.remember-me input:checked ~ .checkmark:after {
+     display: block;
+     background: rgb(0, 105, 255);
+}
+   
+/* Style the indicator (dot/circle) */
+.remember-me .checkmark:after {
+     top: 3.7px;
+     left: 3.3px;
+     width: 13px;
+     height: 12.5px;
+     border-radius: 50%;
+     background: white;
+}
+
+
+
+/* LOGIN BUTTON 2 */
+.login-button2{
+     background-color:rgb(0, 105, 255);
+     border: solid 2px rgb(0, 105, 255);
+     border-radius: 8px;
+     color: rgb(255, 255, 255);
+     padding: 18px 23px;
+     text-align: center;
+     display: inline-block;
+     font-size: 21px;
+     font-weight: 700;
+     cursor: pointer;
+
+     transition-duration: 0.3s;
+
+     margin-top: -15px;
+
+}
+
+.login-button2:hover{
+     background-color: rgb(0, 100, 220);
+     border-color: rgb(0, 100, 220);
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.15), 0 3px 20px 0 rgba(0,0,0,0.10);
+}
+
+
+
+/* LINK 1 */
+.forgot{
+     text-decoration: none;
+     color: rgb(67, 154, 233);
+     font-weight: bolder;
+     margin-top: -15px;
+
+}
+
+.forgot:hover{
+     text-decoration: underline;
+}
+
+
+
+/* HORIZONTAL LINE 2 */
+hr{
+     border-top: 0.5px solid rgb(207, 213, 225);
+     width:100%;
+     margin-top:50px;
+     background-color: rgb(207, 213, 225);
+}
+
+
+
+/* LINK 2 */
+.create{
+     margin-top: -15px;
+}
+.register{
+     text-decoration: none;
+     color: rgb(67, 154, 233);
+}
+
+.register:hover{
+     text-decoration: underline;
+}
+
+
+
+
+/*  */
+@media(min-width: 600px){
+     body{
+          font-size:1rem;
+
+     }
+}
+
+@media(max-width: 800px){
+     body{
+          font-size: 0.8rem;
+          line-height: 1.5;
+          width: 70%;
+     }
+
+     .forgot{
+          margin-top: 1px;
+     }
+}
